@@ -15,6 +15,7 @@ git clone https://github.com/pvl1524/selenium_rt_tests.git
 В каталоге /tests располагается файл test_rt_auth.py с позитивными и негативными тестами формы авторизации личного кабинета Ростелеком.
 
 Для установки необходимых библиотек в корневом каталоге проекта следует выполнить следующие команды:
+
 pip install pytest
 pip install pytest-selenium
 pip install pytest-check
@@ -23,6 +24,7 @@ pip install 2captcha-python
 При выполнении задания используется Selenium четвертой версии. 
 
 Для запуска тестов следует использовать Crhomedriver, который можно найти по адресу https://chromedriver.chromium.org/downloads 
+
 Предполагается, что файл cromedriver находиться в корневом каталоге проекта.
 
 Для запуска тестов в корневом каталоге проекта следует выполнить команду
